@@ -3,7 +3,7 @@
     <head>
         <meta charset='UTF-8'/>
         <title>SVG Study</title>
-        <link href='bootstrap.min.css' rel='stylesheet'/>
+        <link href='css/bootstrap.min.css' rel='stylesheet'/>
 
         <style type="text/css">
         /***************************/
@@ -41,7 +41,7 @@
             stroke-width: 2px;
         }
         header figure {
-            width: 10%;
+            width: 150px;
         }
         </style>
     </head>
@@ -94,36 +94,48 @@
         <!--   header              -->
         <!-- ===================== -->
         <header class='container'>
-            <h1>Blasting Off with Bootstrap</h1>
-            <h2>The fastest way to space</h2>
-            <p>Make your way to space in the comfort of your own rocket, elevator or transporter.</p>
-            <button>Take the Tour</button>
-            <button>Book Tickets Now</button>
-            <!-- <figure>
-                <svg version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 268 268'>
-                    <use xlink:href='#logo'/>
-                    <title>Logo</title>
-                    <desc>Green triangle in the circle</desc>
-                </svg>
-            </figure> -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Blasting Off with Bootstrap</h1>
+                </div>
+            </div>
+            <section class="row">
+                <div class="col-md-6">
+                    <h2 >The fastest way to space</h2>
+                    <p>Make your way to space in the comfort of your own rocket, elevator or transporter.</p>
+                    <button>Take the Tour</button>
+                    <button>Book Tickets Now</button>
+                </div>
+                <div class="col-md-6 hidden-sm hidden-xs">
+                    <figure>
+                        <svg version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 268 268'>
+                            <use xlink:href='#logo'/>
+                            <title>Logo</title>
+                            <desc>Green triangle in the circle</desc>
+                        </svg>
+                    </figure>
+                </div>
+            </section>
         </header>
         <!-- ===================== -->
         <!--   main                -->
         <!-- ===================== -->
         <main class='container'>
-            <section>
-                <h3>Book Today!</h3>
-                <p>Even if you're travelling tomorrow, you can still get tickets  today. We have a number of conveniently located ports around the globe to service everyone.</p>
-            </section>
-            <section>
-                <h3>Go Anywhere</h3>
-                <p>If you need to get to space today, why not try out the transporter? Despite the claims, there are have been no deaths in  the last 6 weeks!</p>
-            </section>
-            <section>
-                <h3>RocketBus&reg;</h3>
-                <p>For cheapest fares, catch the next RocketBus&reg; to the stars. Cheaper on your wallet, and easiest way to make friends.</p>
-            </section>
+            <div class="row">
+                <section class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <h3>Book Today!</h3>
+                    <p>Even if you're travelling tomorrow, you can still get tickets  today. We have a number of conveniently located ports around the globe to service everyone.</p>
+                </section>
+                <section class="col-sm-4 col-xs-6">
+                    <h3>Go Anywhere</h3>
+                    <p>If you need to get to space today, why not try out the transporter? Despite the claims, there are have been no deaths in  the last 6 weeks!</p>
+                </section>
+                <section class="col-sm-4 col-xs-6">
+                    <h3>RocketBus&reg;</h3>
+                    <p>For cheapest fares, catch the next RocketBus&reg; to the stars. Cheaper on your wallet, and easiest way to make friends.</p>
+                </section>
+            </div>
         </main>
-        <script src='bootstrap.min.js'></script>
+        <script src='js/bootstrap.min.js'></script>
     </body>
 </html>
