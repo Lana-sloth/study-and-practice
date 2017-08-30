@@ -47,8 +47,10 @@
     </head>
     <body>
         <!-- ===================== -->
-        <!--   monitor icon        -->
+        <!--   defined SVGs        -->
         <!-- ===================== -->
+
+        <!--   monitor icon          -->
         <svg class='defined-icon' height='100' width='100' version='1.1' xmlns='http://www.w3.org/2000/svg'>
             <symbol id='monitor-icon'>
                 <rect height='80' width='100'/>
@@ -56,18 +58,14 @@
                 <rect height='10' width='40' x='30' y='90'/>
             </symbol>
         </svg>
-        <!-- ===================== -->
         <!--   phone icon          -->
-        <!-- ===================== -->
         <svg class='defined-icon' height='120' width='90' version='1.1' xmlns='http://www.w3.org/2000/svg'>
             <symbol id='phone-icon'>
                 <rect height='100' width='70' fill='white' stroke='#ff2626' stroke-width='10' x='5' y='5' rx='5'/>
                 <circle cx='40' cy='105' r='3' fill='white'/>
             </symbol>
         </svg>
-        <!-- ===================== -->
-        <!--   logo                -->
-        <!-- ===================== -->
+        <!--   logo icon          -->
         <svg class='logo defined-icon' height='268' width='268' version='1.1' xmlns='http://www.w3.org/2000/svg'>
             <symbol id='logo'>
                 <circle r='130' cx='134' cy='134'/>
@@ -92,16 +90,40 @@
             </symbol>
         </svg>
 
-        <header>
-            <h1>SVG Study</h1>
-            <figure>
+        <!-- ===================== -->
+        <!--   header              -->
+        <!-- ===================== -->
+        <header class='container'>
+            <h1>Blasting Off with Bootstrap</h1>
+            <h2>The fastest way to space</h2>
+            <p>Make your way to space in the comfort of your own rocket, elevator or transporter.</p>
+            <button>Take the Tour</button>
+            <button>Book Tickets Now</button>
+            <!-- <figure>
                 <svg version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 268 268'>
                     <use xlink:href='#logo'/>
                     <title>Logo</title>
                     <desc>Green triangle in the circle</desc>
                 </svg>
-            </figure>
+            </figure> -->
         </header>
-<script src='bootstrap.min.js'></script>
-</body>
+        <!-- ===================== -->
+        <!--   main                -->
+        <!-- ===================== -->
+        <main class='container'>
+            <section>
+                <h3>Book Today!</h3>
+                <p>Even if you're travelling tomorrow, you can still get tickets  today. We have a number of conveniently located ports around the globe to service everyone.</p>
+            </section>
+            <section>
+                <h3>Go Anywhere</h3>
+                <p>If you need to get to space today, why not try out the transporter? Despite the claims, there are have been no deaths in  the last 6 weeks!</p>
+            </section>
+            <section>
+                <h3>RocketBus&reg;</h3>
+                <p>For cheapest fares, catch the next RocketBus&reg; to the stars. Cheaper on your wallet, and easiest way to make friends.</p>
+            </section>
+        </main>
+        <script src='bootstrap.min.js'></script>
+    </body>
 </html>
