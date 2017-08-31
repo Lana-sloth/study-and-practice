@@ -2,140 +2,26 @@
 <html>
     <head>
         <meta charset='UTF-8'/>
-        <title>SVG Study</title>
+        <title>Lana-sloth's projects</title>
         <link href='css/bootstrap.min.css' rel='stylesheet'/>
-
-        <style type="text/css">
-        /***************************/
-        /*     styles              */
-        /***************************/
-        .defined-icon {
-            display: none;
-        }
-        svg {
-            height: auto;
-            width: 100%;
-        }
-        .logo circle {
-            fill: none; 
-            stroke: #008b6f;
-            stroke-width: 7px;
-        }
-        .logo line {
-            stroke: black;
-            stroke-width: 5px;
-        }
-        .logo text {
-            font-size: 20px;
-            fill: white;
-            text-anchor: middle;
-        }
-        .logo polygon {
-            fill: #008b6f;
-            stroke: black;
-            stroke-width: 2px;
-        }
-        .logo g {
-            fill: #008b6f;
-            stroke: black;
-            stroke-width: 2px;
-        }
-        header figure {
-            width: 150px;
-        }
-        </style>
     </head>
     <body>
-        <!-- ===================== -->
-        <!--   defined SVGs        -->
-        <!-- ===================== -->
-
-        <!--   monitor icon          -->
-        <svg class='defined-icon' height='100' width='100' version='1.1' xmlns='http://www.w3.org/2000/svg'>
-            <symbol id='monitor-icon'>
-                <rect height='80' width='100'/>
-                <rect height='50' width='80' fill='white' x='10' y='10'/>
-                <rect height='10' width='40' x='30' y='90'/>
-            </symbol>
-        </svg>
-        <!--   phone icon          -->
-        <svg class='defined-icon' height='120' width='90' version='1.1' xmlns='http://www.w3.org/2000/svg'>
-            <symbol id='phone-icon'>
-                <rect height='100' width='70' fill='white' stroke='#ff2626' stroke-width='10' x='5' y='5' rx='5'/>
-                <circle cx='40' cy='105' r='3' fill='white'/>
-            </symbol>
-        </svg>
-        <!--   logo icon          -->
-        <svg class='logo defined-icon' height='268' width='268' version='1.1' xmlns='http://www.w3.org/2000/svg'>
-            <symbol id='logo'>
-                <circle r='130' cx='134' cy='134'/>
-                <line x1='47' y1='198' x2='221' y2='198'/>
-                <polygon points='52,190 134,30 216,190'/>
-                <text x='134' y='142'>SVG</text>
-                <g transform='translate(45,67)'>
-                    <polygon points='7,10 12,0 17,10'/>
-                    <polygon points='0,25 5,15 10,25'/>
-                    <polygon points='15,25 20,15 25,25'/>
-                </g>
-                <g transform='translate(198,67)'>
-                    <polygon points='7,10 12,0 17,10'/>
-                    <polygon points='0,25 5,15 10,25'/>
-                    <polygon points='15,25 20,15 25,25'/>
-                </g>
-                <g transform='translate(121.5,211)'>
-                    <polygon points='7,10 12,0 17,10'/>
-                    <polygon points='0,25 5,15 10,25'/>
-                    <polygon points='15,25 20,15 25,25'/>
-                </g>
-            </symbol>
-        </svg>
-
-        <!-- ===================== -->
-        <!--   header              -->
-        <!-- ===================== -->
-        <header class='container'>
+        <div class='container'>
             <div class="row">
-                <div class="col-md-12">
-                    <h1>Blasting Off with Bootstrap</h1>
-                </div>
-            </div>
-            <section class="row">
-                <div class="col-md-6">
-                    <h2 >The fastest way to space</h2>
-                    <p>Make your way to space in the comfort of your own rocket, elevator or transporter.</p>
-                    <button>Take the Tour</button>
-                    <button>Book Tickets Now</button>
-                </div>
-                <div class="col-md-6 hidden-sm hidden-xs">
-                    <figure>
-                        <svg version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 268 268'>
-                            <use xlink:href='#logo'/>
-                            <title>Logo</title>
-                            <desc>Green triangle in the circle</desc>
-                        </svg>
-                    </figure>
-                </div>
-            </section>
-        </header>
-        <!-- ===================== -->
-        <!--   main                -->
-        <!-- ===================== -->
-        <main class='container'>
-            <div class="row">
-                <section class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-                    <h3>Book Today!</h3>
-                    <p>Even if you're travelling tomorrow, you can still get tickets  today. We have a number of conveniently located ports around the globe to service everyone.</p>
-                </section>
-                <section class="col-sm-4 col-xs-6">
-                    <h3>Go Anywhere</h3>
-                    <p>If you need to get to space today, why not try out the transporter? Despite the claims, there are have been no deaths in  the last 6 weeks!</p>
-                </section>
-                <section class="col-sm-4 col-xs-6">
-                    <h3>RocketBus&reg;</h3>
-                    <p>For cheapest fares, catch the next RocketBus&reg; to the stars. Cheaper on your wallet, and easiest way to make friends.</p>
-                </section>
-            </div>
-        </main>
+                <div class="col-md-6 col-md-offset-3">
+                    <h1>Study and Practice</h1>
+                    <hr>
+                    <section>
+                        <h2>Projects:</h2>
+                        <ul>
+                            <li><a href='projects/svg-bts-study/main.html'>Bootstrap study</a></li>
+                        </ul>
+                    </section>
+                </div> <!-- column end -->
+            </div> <!-- row end -->
+        </div> <!-- container end -->
+
         <script src='js/bootstrap.min.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </body>
 </html>

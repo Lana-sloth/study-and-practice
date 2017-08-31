@@ -1,0 +1,37 @@
+.defined-icon {
+    display: none;
+}
+svg {
+    height: auto;
+    width: 100%;
+}
+.logo circle {
+    fill: none; 
+    stroke: #008b6f;
+    stroke-width: 7px;
+}
+.logo line {
+    stroke: black;
+    stroke-width: 5px;
+}
+.logo text {
+    font-size: 20px;
+    fill: white;
+    text-anchor: middle;
+}
+.logo polygon {
+    fill: #008b6f;
+    stroke: black;
+    stroke-width: 2px;
+}
+.logo g {
+    fill: #008b6f;
+    stroke: black;
+    stroke-width: 2px;
+}
+header figure {
+    width: 150px;
+}
+.features .glyphicon {
+  font-size: 32px;
+}
