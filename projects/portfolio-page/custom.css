@@ -29,6 +29,11 @@ html {
     --lead-color: #fff;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+
 h1 {
     background-color: var(--bright-color);
     color: var(--header-text-color);
